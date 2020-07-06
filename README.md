@@ -1,4 +1,4 @@
-# mimkoto-mama
+# mikoto-mama
 
 ## Build Setup
 
