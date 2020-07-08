@@ -10,7 +10,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: '11.12.x'
+        node-version: '10.x'
     - name: yarn install
       run: yarn install
     - name: Run jest test

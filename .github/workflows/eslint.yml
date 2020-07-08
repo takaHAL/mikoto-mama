@@ -16,5 +16,6 @@ jobs:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review
           eslint_flags: './**/*.{vue,ts,js}'
+          node-version: '10.x'
       - name: eslint
         run: yarn lint
