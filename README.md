@@ -18,3 +18,9 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+# デプロイ先
+https://dazzling-mcnulty-53366c.netlify.app/
+
+# ステージング環境
+https://development--dazzling-mcnulty-53366c.netlify.app/
