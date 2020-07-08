@@ -1,0 +1,21 @@
+name: eslint
+on:
+  pull_request:
+    branches: [ development ]
+jobs:
+  eslint:
+    name: eslint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: yarn install
+        run: yarn install
+      - name: eslint review
+        uses: reviewdog/action-eslint@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          reporter: github-pr-review
+          eslint_flags: './**/*.{vue,ts,js}'
+          node-version: '10.x'
+      - name: eslint
+        run: yarn lint
