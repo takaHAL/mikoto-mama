@@ -1,5 +1,5 @@
 # mikoto-mama
-ママのために
+
 ## Build Setup
 
 ```bash
