@@ -18,7 +18,7 @@ jobs:
           lighthouse \
             --chrome-flags="--headless" \
             --output html --output-path /tmp/report.html \
-            'https://<target>.com'
+            'https://development--dazzling-mcnulty-53366c.netlify.app/'
           mkdir ./public
           cp /tmp/report.html ./public/report.html
 
