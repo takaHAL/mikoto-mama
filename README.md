@@ -24,3 +24,6 @@ https://dazzling-mcnulty-53366c.netlify.app/
 
 # ステージング環境
 https://development--dazzling-mcnulty-53366c.netlify.app/
+
+# ライトハウス計測　結果
+https://taka_hal.github.io/mikoto-mama/
