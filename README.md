@@ -26,4 +26,4 @@ https://dazzling-mcnulty-53366c.netlify.app/
 https://development--dazzling-mcnulty-53366c.netlify.app/
 
 # ライトハウス計測　結果
-https://taka_hal.github.io/mikoto-mama/
+https://takahal.github.io/mikoto-mama/report.html
