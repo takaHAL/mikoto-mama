@@ -1,9 +1,13 @@
 <template>
-  <header>
-    <ul class="flex">
+  <header class="w-full fixed top-0 left-0 bg-transparent">
+    <ul class="flex px-4">
+      <div class="h-16 mr-auto pl-4 centering text-gray-200">
+        logo
+      </div>
       <li
         v-for="menu in menus"
         :key="menu.context"
+        class="h-16 px-4 centering font-mono font-light text-sm text-gray-200"
       >
         {{ menu.context }}
       </li>
@@ -27,9 +31,8 @@ export default Vue.extend({
     return {
       menus: [
         { context: 'プロフィール', to: '' },
-        { context: '配信', to: '' },
-        { context: '音楽', to: '' },
-        { context: 'ラジオ', to: '' },
+        { context: 'ニュース', to: '' },
+        { context: '動画', to: '' },
         { context: 'リンク', to: '' }
       ]
     }
