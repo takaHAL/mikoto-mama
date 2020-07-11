@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="w-full">
     <AppToolbar />
-    <Nuxt />
+    <Nuxt class="w-full mx-auto min-h-screen py-16" />
   </div>
 </template>
 
