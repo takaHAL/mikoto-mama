@@ -19,10 +19,13 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: '竜胆尊ママのための非公式サイト' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      { hid: 'twitter', type: 'text/javascript', src: 'https://platform.twitter.com/widgets.js', async: true, defer: true, body: true }
     ]
   },
   /*
